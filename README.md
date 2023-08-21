@@ -27,7 +27,7 @@ The latest versions will be on v12 now
 
 # Warning
 
-We cannot force you to keep the "Powered by Heliactyl" in the footer, but please consider keeping it. It helps getting more visibility to the project and so getting better. We won't do technical support for installations without the notice in the footer. We may DMCA the website in certain conditions.
+We cannot force you to keep the "Powered by Whizz" in the footer, but please consider keeping it. It helps getting more visibility to the project and so getting better. We won't do technical support for installations without the notice in the footer. We may DMCA the website in certain conditions.
 Please do keep the footer though.
 
 <hr>
@@ -118,23 +118,5 @@ location / {
 
 <hr>
 
-# Updating 
 
-From Heliactyl v11/v13 or Dashactyl v0.4 to Heliactyl v12:
-1. Store certain things such as your api keys, discord auth settings, etc in a .txt file
-2. Download database.sqlite 
-3. Delete all files off the server (or delete and remake the folder if done in ssh)
-4. Upload the latest Heliactyl v12 release and unzip it
-5. Upload database.sqlite and reconfigure settings.json
-
-From Heliactyl v15:
-- This is currently not possible due to major differences between the versions
-- You will have to install Heliactyl v12 and use a new database
-
-Move to a newer Heliactyl v12 release:
-1. Delete everything except settings.json, database.sqlite
-2. Put the files that you didn't delete into a zip file
-3. Upload the latest Heliactyl v12 release and unzip it
-4. Remove settings.json and database.sqlite
-5. Unzip the zip with your old settings.json and database.sqlite
 
