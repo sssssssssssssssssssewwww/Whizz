@@ -1,15 +1,15 @@
 {
   "version": "12.5.2",
-  "name": "Heliactyl",
-  "letter": "H",
+  "name": "Whizz",
+  "letter": "W",
   "defaulttheme": "default",
   "website": {
     "port": 30000,
     "secret": "Default Secret (Change this to any string you want)"
   },
   "pterodactyl": {
-    "domain": "https://panel.pylexnodes.net",
-    "key": "ptla_a9FY3t79fTuno8FiJPuRhqTvWrO3RNv5i04JL8X8UQu"
+    "domain": "https://panel.examplr.net",
+    "key": "panel api key"
   },
   "linkvertise": {
     "userid": "10000",
@@ -17,10 +17,10 @@
   },
   "storelimits": {
     "note": "This is in GB, not MB (the first setting to use GB eh?)",
-    "ram": "32000000",
-    "disk": "12800000",
-    "cpu": "40000000",
-    "servers": "80000000"
+    "ram": "3048",
+    "disk": "5048",
+    "cpu": "120",
+    "servers": "1"
   },
   "stripe": {
     "enabled": true,
@@ -53,12 +53,12 @@
         ]
       },
       "bot": {
-        "token": "MTA2NDYxNzcwMTYyNjEwNTg2Ng.GkdYiz.j0kHeVDLJ-AK_Yxu4dIhqtEfx9kC56pzROZ_10",
+        "token": "TOKEN",
         "joinguild": {
           "_comment": "The Discord bot must be in these servers and have invite permissions. Automatic guild joining will not work unless role packages are configured correctly.",
           "enabled": true,
           "guildid": [
-            "935616600952934471"
+            "Server ID"
           ]
         }
       },
@@ -79,9 +79,9 @@
       },
       "oauth2": {
         "_comment": "Go to https://discord.dev/ and create an application to set these up.",
-        "id": "1064617701626105866",
-        "secret": "JSk94PZp2jAo7AGPTkvbCQW8oPfxfG89",
-        "link": "https://client.pylexnodes.net",
+        "id": "Bot Id",
+        "secret": "Bot Secret",
+        "link": "https://client.example.net",
         "callbackpath": "/callback",
         "prompt": true,
         "ip": {
@@ -111,18 +111,18 @@
             "cpu": 100,
             "servers": 16
           },
-          "default2": {
-            "ram": 2048,
-            "disk": 10240,
-            "cpu": 100,
+          "paid": {
+            "ram": 16024,
+            "disk": 15063,
+            "cpu": 800,
             "servers": 16
           }
         },
         "rolePackages": {
           "note": "This allows you to set a different plan to people who have a specific role however this requires the Discord bot to be configured and functioning. This is mainly used for Boost rewards",
-          "roleServer": "935616600952934471",
+          "roleServer": "server id",
           "roles": {
-            "1064551610098913300": "default2"
+            "booster role id": "paid"
           }
         }
       },
