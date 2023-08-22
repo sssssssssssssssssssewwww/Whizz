@@ -51,12 +51,12 @@ Warning: You need Pterodactyl already set up on a domain for this method to work
 - `nvm install 16`
 - check the node version with `node -v` and switch between versions with `nvm use <version>`
 
-<strong>1.2</strong> Download heliactyl files in /var/www/whizz :
-- `git clone https://github.com/WhizzCreation/Whizz /var/www/whizz`
+<strong>1.2</strong> Download heliactyl files in /var/www/Whizz :
+- `git clone https://github.com/WhizzCreation/Whizz /var/www/Whizz`
 
 <strong>1.3</strong> Installing required node modules (and build dependencies to avoid errors) :
 - `apt-get update && apt-get install libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev build-essential`
-- `cd /var/www/whizz && npm i`
+- `cd /var/www/Whizz && npm i`
 
 After configuring settings.json, to start the server use `node index.js`</br>
 To run in the background use pm2 (see pm2 section) or screen</br>
